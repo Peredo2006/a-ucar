@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+    color: #f2f2f2;
+    margin: 20px 20px 30px 20px;
+}
+.cabecalho{
+    background-color: #091926;
+    height: 200px;
+    text-align: center;
+}
+h1{
+    padding: 30px;
+    color: #ffffff;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+body{
+    background-color: #5d7173;
+}
+a:link{
+    margin-left: 50px;
+    font-size: 20px;
+}
+a{
+    color:rgb(255, 255, 255);
+}
+a:hover{
+    background-color: #2E4D59;
+    padding: 10px;
+    border-radius: 20%;
+    font-size: 24px;
+}
+h2{
+    color: #f2f2f2;
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.inícioesq{
+    width: 800px;
+    background-color: #091926;
+    margin-top: 40px;
+    color: #f2f2f2;
+    border-radius: 5%;
+    text-align: center;
+    border: 5px solid #f2f2f2;
+}
+.inicioesq p{
+    margin: 15px 20px 30px 20px;
+    font-size: 18px;
+}
+.inícioesq img{
+    margin-top: 15px;
+    border-radius: 5%;
+    border: 5px solid #f2f2f2;
+}
+.imageminício{
+    display: flex;
+    justify-content: center;
+}
+.iniciodir img{
+    margin-top: 50px;
+    border-radius: 5%;
+    border: 5px solid #f2f2f2;
+}
+.rodape{
+    float: inline-end;
+    text-align: center;
+    background-color: #091926;
+    color: #f2f2f2;
+    font-size: 18px;
+    height: 80px;
+    margin-top: 100px;
+    border-top: 5px solid #f2f2f2;
+}
+.rodape p{
+    padding: auto;
+}
+.processo{
+    background-color: #091926;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5%;
+    border: 5px solid #f2f2f2;
+    margin-bottom: 50px;
+}
+.processo p{
+    padding: 20px;
+    color: #f2f2f2;
+    font-size: 18px
+}
+.etapas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.etapa{
+    background-color: #091926;
+    width: 600px;
+    text-align: center;
+    border-radius: 5%;
+    border: 5px solid #f2f2f2;
+}
+.etapa img{
+    border-radius: 5%;
+    margin: 20px;
+    border: 5px solid #f2f2f2;
+}
+#tipos{
+    width: 45%;
+    padding:15px;
+    background-color: #091926;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 40px;
+    border: 7px solid white;
+}
+#tipos img{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+#tipos p{
+    color: #ffffff;
+}
+.tiposmeio{
+    margin-left: 40px;
+    width: 30%;
+    padding: 15px;
+    margin: 50px;
+    text-align:center;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: #091926;
+    border: 7px solid white
+}
+.tiposdomeio{
+    margin-left: 40px;
+    width: 30%;
+    padding: 10px;
+    margin: 50px;
+    text-align:center;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: #091926;
+    border: 7px solid white
+}
+#tiposmeioprincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#tiposmeiosecundaria{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#tiposmeioterciario{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#tiposmeioprincipal p img{
+    color: white;
+}
+#tiposmeiosecundaria{
+    color: white;
+}
+#tiposmeioterciario{
+    color: white;
+}
+.tiposmeio img{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.tiposdomeio img{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.mal{
+    background-color: #091926;
+    margin-top: 50px;
+    border: 5px solid #f2f2f2;
+    width: 90%;
+    border-radius: 5%;
+}
+.postmal{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+.maltxtcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.maltxtitens{
+    width: 30%;
+    text-align: center;
+}
+h3{
+    color: #f2f2f2;
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.maltxtitens img{
+    border: 3px solid #f2f2f2;
+    border-radius: 5%;
+}
